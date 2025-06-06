@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(126, 201, 126); */
+}
+.box{
+    display: fleX;
+    justify-content: space-between;
+    padding: 1% 10%;
+    align-items: centeR;
+    /* border: 1px solid black; */
+    text-shadow: 2px 2px 5px;
+    background-color: rgb(158, 195, 195);
+    padding-inline: 20px;
+    /* position: fixed; */
+    /* margin: 0px; */
+    /* background-attachment: fixed; */
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.list-items{
+    display: flex;
+    align-items: flex-end;
+    /* gap: 10px; */
+
+
+}
+li{
+    padding: 0 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+.hero{
+  background-image: url("images/istockphoto.jpg");
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  object-position: top;
+  display: flex;
+  background-attachment: fixed;
+}
+.hero .hero-box{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.hero .left{
+    color: white;
+    padding: 10%;
+    /* display: flex; */
+    position: relative;
+    justify-content: space-between;
+
+}
+.asco{ margin-left: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px 5px;
+    border-radius: 10px;
+    padding-inline: 20px;
+
+}
+
+.btn button{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-inline: 20px;
+}
+/* a{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px 5px 10px;
+    padding: 5px; */
+}
+button{
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 10px 5px;
+    padding: 5px;
+}
+button a{
+    text-decoration: none; */
+}
+.man{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 20px;
+    gap: 80px;
+    padding-top: 50px;
+    padding-bottom: 20px
+    
+}
+.man button{
+    margin-left: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px 5px;
+    border-radius: 10px;
+    padding-inline: 20px;
+
+}
+.img1{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    /* gap: 15px; */
+    /* display: flex; */
+    /* padding: 5px; */
+    box-shadow: 5px 10px 10px rgb(95, 186, 144);
+}
+.img2{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 5px 10px rgb(127, 185, 127);
+
+}
+.img{
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+
+}
+.img button{
+    margin-left: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px 5px;
+    border-radius: 10px;
+    padding-inline: 20px;
+
+}
+
+.kk{
+    width: 350px;
+    height: 250px;
+     box-shadow: 10px 5px 10px 5px rgb(118, 193, 118);
+    border-radius: 10px;
+}
+
+.bb{
+    border-radius: 30px 10px;
+    box-shadow: 10px 5px 10px rgb(113, 183, 147);
+    height: 250px;
+    width: 400px;
+    padding: 5px;
+}
+.scot{
+    display: flex;
+    margin: 30px;
+    
+}
+.tt{
+    width: 310px;
+    height: 200px;
+    padding: 5px;
+    box-shadow:10px 5px 10px 5px rgb(167, 206, 164) ;
+    border-radius: 25px 15px;
+
+}
+.sas{
+    background-image: url(images/stock-photo-professional\ 8.jpg);
+    width: 84%;
+    height: 300px;
+    margin: 0px;
+    box-shadow: 10px 5px 10px 5px rgb(63, 63, 172);
+    background-attachment: fixed;
+    padding: 100px;
+    color: azure;
+}
+.sas button{
+    margin-left: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px 5px;
+    border-radius: 10px;
+    padding-inline: 20px;
+}
